@@ -36,13 +36,13 @@ public class MonoPackageManager {
 				String language     = locale.getLanguage () + "-" + locale.getCountry ();
 				String filesDir     = context.getFilesDir ().getAbsolutePath ();
 				String cacheDir     = context.getCacheDir ().getAbsolutePath ();
-				String dataDir      = getNativeLibraryPath (context);
+				String dataDir      = context.getApplicationInfo ().dataDir + "/lib";
 				ClassLoader loader  = context.getClassLoader ();
 
 				Runtime.init (
 						language,
 						apks,
-						getNativeLibraryPath (runtimePackage),
+						runtimePackage.dataDir + "/lib",
 						new String[]{
 							filesDir,
 							cacheDir,
@@ -65,18 +65,6 @@ public class MonoPackageManager {
 	public static void setContext (Context context)
 	{
 		// Ignore; vestigial
-	}
-
-	static String getNativeLibraryPath (Context context)
-	{
-	    return getNativeLibraryPath (context.getApplicationInfo ());
-	}
-
-	static String getNativeLibraryPath (ApplicationInfo ainfo)
-	{
-		if (android.os.Build.VERSION.SDK_INT >= 9)
-			return ainfo.nativeLibraryDir;
-		return ainfo.dataDir + "/lib";
 	}
 
 	public static String[] getAssemblies ()
@@ -141,5 +129,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
+	public static final String ApiPackageName = null;
 }
