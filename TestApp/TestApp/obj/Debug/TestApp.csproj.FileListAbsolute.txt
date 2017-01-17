@@ -18,17 +18,3 @@ c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll
 c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.pdb
 c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
 c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
-c:\users\aut\documents\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb

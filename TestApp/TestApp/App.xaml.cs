@@ -35,6 +35,9 @@ namespace TestApp
         protected override void OnResume()
         {
             // Handle when your app resumes
+            int x = 10 ;
+            int y = 0;
+            int crash = x / y;
         }
     }
 }
